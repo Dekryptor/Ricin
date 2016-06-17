@@ -1,0 +1,39 @@
+### AutoVala Project ###
+autovala_version: 19
+project_name: Ricin
+*vala_version: 0.30
+
+
+*vala_binary: src/Ricin
+*vala_vapi: vapis/libtoxav.vapi
+*vala_vapi: vapis/libtoxcore.vapi
+*vala_vapi: vapis/libtoxencryptsave.vapi
+*vala_check_package: gio-2.0
+*vala_check_package: glib-2.0
+*vala_source: Ricin.vala
+*vala_source: core/ActionMessage.vala
+*vala_source: core/AvatarTransfer.vala
+*vala_source: core/Contact.vala
+*vala_source: core/DhtManager.vala
+*vala_source: core/DhtNode.vala
+*vala_source: core/FileTransfer.vala
+*vala_source: core/GroupActionMessage.vala
+*vala_source: core/GroupMessage.vala
+*vala_source: core/IFileTransfer.vala
+*vala_source: core/IMessage.vala
+*vala_source: core/IPlugin.vala
+*vala_source: core/Message.vala
+*vala_source: core/PluginLoader.vala
+*vala_source: core/Profile.vala
+*vala_source: core/persistence/ChatHistory.vala
+*vala_source: core/persistence/GeneralSettings.vala
+*vala_source: core/persistence/ProfileSettings.vala
+*vala_source: interface/ITheme.vala
+*vala_source: interface/ThemesManager.vala
+
+*po: po
+
+*data: data/local
+
+*doc: doc
+

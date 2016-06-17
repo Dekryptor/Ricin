@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/skyzohkey/Dev/Vala/Ricin2/build/src/Config.c
+glib.h
+-
+glib-object.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/skyzohkey/Dev/Vala/Ricin2/build/src/Ricin.c
+glib.h
+-
+glib-object.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+
