@@ -27,7 +27,7 @@ public class DhtNode : Object {
   /**
   * {string} ip - A valid IPv4/IPv6.
   * {int} port - A valid and open port.
-  * {string} Ricin.PubKey - A valid public key.
+  * {Ricin.PubKey} public_key - A valid public key.
   * {bool} is_ipv6 - Is the node using an IPv6 address ?
   */
   public DhtNode (string ip, int port, Ricin.PubKey public_key, bool is_ipv6 = false) {
