@@ -11,14 +11,16 @@
 
 
 
-gint ricin_main (gchar** args, int args_length1);
+gint _vala_main (gchar** args, int args_length1);
+#define RICIN_CONSTS_APPLICATION_NAME "Ricin"
+#define RICIN_CONSTS_APPLICATION_VERSION "1.0.0"
 
 
-gint ricin_main (gchar** args, int args_length1) {
+gint _vala_main (gchar** args, int args_length1) {
 	gint result = 0;
 	FILE* _tmp0_ = NULL;
 	_tmp0_ = stdout;
-	fprintf (_tmp0_, "Ricin: Hello guys!\n");
+	fprintf (_tmp0_, "%s v.%s started !\n", RICIN_CONSTS_APPLICATION_NAME, RICIN_CONSTS_APPLICATION_VERSION);
 	result = 0;
 	return result;
 }
@@ -28,7 +30,7 @@ int main (int argc, char ** argv) {
 #if !GLIB_CHECK_VERSION (2,35,0)
 	g_type_init ();
 #endif
-	return ricin_main (argv, argc);
+	return _vala_main (argv, argc);
 }
 
 

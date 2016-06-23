@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/skyzohkey/Dev/Vala/Ricin2
+CMAKE_SOURCE_DIR = /home/skyzohkey/Dev/Vala/Ricin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/skyzohkey/Dev/Vala/Ricin2/build
+CMAKE_BINARY_DIR = /home/skyzohkey/Dev/Vala/Ricin/build
 
 # Utility rule file for i18n.
 
@@ -63,10 +63,10 @@ po/CMakeFiles/i18n.dir/build: i18n
 .PHONY : po/CMakeFiles/i18n.dir/build
 
 po/CMakeFiles/i18n.dir/clean:
-	cd /home/skyzohkey/Dev/Vala/Ricin2/build/po && $(CMAKE_COMMAND) -P CMakeFiles/i18n.dir/cmake_clean.cmake
+	cd /home/skyzohkey/Dev/Vala/Ricin/build/po && $(CMAKE_COMMAND) -P CMakeFiles/i18n.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/i18n.dir/clean
 
 po/CMakeFiles/i18n.dir/depend:
-	cd /home/skyzohkey/Dev/Vala/Ricin2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/skyzohkey/Dev/Vala/Ricin2 /home/skyzohkey/Dev/Vala/Ricin2/po /home/skyzohkey/Dev/Vala/Ricin2/build /home/skyzohkey/Dev/Vala/Ricin2/build/po /home/skyzohkey/Dev/Vala/Ricin2/build/po/CMakeFiles/i18n.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/skyzohkey/Dev/Vala/Ricin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/skyzohkey/Dev/Vala/Ricin /home/skyzohkey/Dev/Vala/Ricin/po /home/skyzohkey/Dev/Vala/Ricin/build /home/skyzohkey/Dev/Vala/Ricin/build/po /home/skyzohkey/Dev/Vala/Ricin/build/po/CMakeFiles/i18n.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/i18n.dir/depend
 

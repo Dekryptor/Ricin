@@ -6,5 +6,5 @@ C_FLAGS =   -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include
 
 C_DEFINES = -DGETTEXT_PACKAGE=\"Ricin\"
 
-C_INCLUDES = -I/home/skyzohkey/Dev/Vala/Ricin2/build/src 
+C_INCLUDES = -I/home/skyzohkey/Dev/Vala/Ricin/build/src 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/skyzohkey/Dev/Vala/Ricin2/src
+# Install script for directory: /home/skyzohkey/Dev/Vala/Ricin/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Ricin"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/skyzohkey/Dev/Vala/Ricin2/build/src/Ricin")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/skyzohkey/Dev/Vala/Ricin/build/src/Ricin")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Ricin" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Ricin")
     if(CMAKE_INSTALL_DO_STRIP)

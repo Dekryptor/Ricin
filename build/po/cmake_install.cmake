@@ -1,4 +1,4 @@
-# Install script for directory: /home/skyzohkey/Dev/Vala/Ricin2/po
+# Install script for directory: /home/skyzohkey/Dev/Vala/Ricin/po
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

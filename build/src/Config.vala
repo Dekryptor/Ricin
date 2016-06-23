@@ -5,6 +5,6 @@ namespace Constants {
 	public const string RELEASE_NAME = "Ricin";
 	public const string VERSION = "1.0.0";
 #if UNITEST
-	public const string TESTSRCDIR = "/home/skyzohkey/Dev/Vala/Ricin2";
+	public const string TESTSRCDIR = "/home/skyzohkey/Dev/Vala/Ricin";
 #endif
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /home/skyzohkey/Dev/Vala/Ricin2
+# Install script for directory: /home/skyzohkey/Dev/Vala/Ricin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/skyzohkey/Dev/Vala/Ricin2/build/src/cmake_install.cmake")
-  include("/home/skyzohkey/Dev/Vala/Ricin2/build/po/cmake_install.cmake")
+  include("/home/skyzohkey/Dev/Vala/Ricin/build/src/cmake_install.cmake")
+  include("/home/skyzohkey/Dev/Vala/Ricin/build/po/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/skyzohkey/Dev/Vala/Ricin2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/skyzohkey/Dev/Vala/Ricin/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
