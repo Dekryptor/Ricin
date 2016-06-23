@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-f9d54c0ba80760ea7450be59f4734038 src/Config.c
-b141131209244e33ab3abc6d8c3213d0 src/Ricin_valac.stamp

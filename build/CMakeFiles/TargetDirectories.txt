@@ -1,3 +1,0 @@
-/home/skyzohkey/Dev/Vala/Ricin/build/po/CMakeFiles/pot.dir
-/home/skyzohkey/Dev/Vala/Ricin/build/po/CMakeFiles/i18n.dir
-/home/skyzohkey/Dev/Vala/Ricin/build/src/CMakeFiles/Ricin.dir
