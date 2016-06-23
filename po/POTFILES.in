@@ -15,12 +15,12 @@ src/core/PubKey.vala
 src/core/Status.vala
 src/core/Theme.vala
 src/core/ThemesManager.vala
+src/core/interfaces/IFileTransfers.vala
+src/core/interfaces/IMessages.vala
+src/core/interfaces/IPlugins.vala
 src/core/persistence/ChatHistory.vala
 src/core/persistence/GeneralSettings.vala
 src/core/persistence/ProfileSettings.vala
 src/core/utils/Consts.vala
 src/core/utils/Markup.vala
 src/core/utils/Re.vala
-src/interface/IFileTransfers.vala
-src/interface/IMessages.vala
-src/interface/IPlugins.vala

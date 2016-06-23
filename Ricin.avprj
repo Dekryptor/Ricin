@@ -28,15 +28,15 @@ project_name: Ricin
 *vala_source: core/Status.vala
 *vala_source: core/Theme.vala
 *vala_source: core/ThemesManager.vala
+*vala_source: core/interfaces/IFileTransfers.vala
+*vala_source: core/interfaces/IMessages.vala
+*vala_source: core/interfaces/IPlugins.vala
 *vala_source: core/persistence/ChatHistory.vala
 *vala_source: core/persistence/GeneralSettings.vala
 *vala_source: core/persistence/ProfileSettings.vala
 *vala_source: core/utils/Consts.vala
 *vala_source: core/utils/Markup.vala
 *vala_source: core/utils/Re.vala
-*vala_source: interface/IFileTransfers.vala
-*vala_source: interface/IMessages.vala
-*vala_source: interface/IPlugins.vala
 
 *po: po
 
