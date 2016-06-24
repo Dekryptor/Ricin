@@ -6,10 +6,10 @@ using Ricin;
 */
 public class Ricin.PluginLoader : Object {
 
-    /**
-    * A constructor.
-    */
-    public PluginLoader () {
+  /**
+  * A constructor.
+  */
+  public PluginLoader () {
 
-    }
+  }
 }

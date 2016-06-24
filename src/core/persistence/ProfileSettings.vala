@@ -6,10 +6,10 @@ using Ricin;
 */
 public class Ricin.ProfileSettings : Object {
 
-    /**
-    * A constructor.
-    */
-    public ProfileSettings () {
+  /**
+  * A constructor.
+  */
+  public ProfileSettings () {
 
-    }
+  }
 }

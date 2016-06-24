@@ -5,10 +5,10 @@ using Ricin;
 */
 public class Ricin.ChatHistory : Object {
 
-    /**
-    * A constructor.
-    */
-    public ChatHistory () {
+  /**
+  * A constructor.
+  */
+  public ChatHistory () {
 
-    }
+  }
 }

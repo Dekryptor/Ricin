@@ -5,10 +5,10 @@ using Ricin;
 */
 public class Ricin.DhtManager : Object {
 
-    /**
-    * A constructor.
-    */
-    public DhtManager () {
+  /**
+  * A constructor.
+  */
+  public DhtManager () {
 
-    }
+  }
 }

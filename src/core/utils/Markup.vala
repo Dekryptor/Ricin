@@ -3,10 +3,10 @@
 */
 public class Ricin.Markup : Object {
 
-    /**
-    * A constructor.
-    */
-    public Markup () {
+  /**
+  * A constructor.
+  */
+  public Markup () {
 
-    }
+  }
 }

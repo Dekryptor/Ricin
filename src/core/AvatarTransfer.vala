@@ -6,10 +6,10 @@ using Ricin;
 */
 public class Ricin.AvatarTransfer : IFileTransfers, Object {
 
-    /**
-    * A constructor.
-    */
-    public AvatarTransfer () {
+  /**
+  * A constructor.
+  */
+  public AvatarTransfer () {
 
-    }
+  }
 }

@@ -8,16 +8,16 @@ namespace ToxEncrypt {
    * This key structure's internals should not be used by any client program, even
    * if they are straightforward here.
    */
-   [CCode (cname="struct TOX_PASS_KEY", destroy_function="", has_type_id=false)]
-   [Compact]
-   public class PassKey {
-     [CCode (array_length=false, array_length_cexpr="TOX_PASS_SALT_LENGTH")]
-     public uint8[] salt;
-     [CCode (array_length=false, array_length_cexpr="TOX_PASS_KEY_LENGTH")]
-     public uint8[] key;
+  [CCode (cname="struct TOX_PASS_KEY", destroy_function="", has_type_id=false)]
+  [Compact]
+  public class PassKey {
+    [CCode (array_length=false, array_length_cexpr="TOX_PASS_SALT_LENGTH")]
+    public uint8[] salt;
+    [CCode (array_length=false, array_length_cexpr="TOX_PASS_KEY_LENGTH")]
+    public uint8[] key;
 
-     public PassKey ();
-   }
+    public PassKey ();
+  }
 
 
   /*******************************************************************************

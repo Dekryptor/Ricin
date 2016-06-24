@@ -5,10 +5,10 @@
 */
 public class Ricin.Re : Object {
 
-    /**
-    * A constructor.
-    */
-    public Re () {
+  /**
+  * A constructor.
+  */
+  public Re () {
 
-    }
+  }
 }

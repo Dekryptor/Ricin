@@ -6,10 +6,10 @@ using Ricin;
 */
 public class Ricin.GroupMessage : IMessages, Object {
 
-    /**
-    * A constructor.
-    */
-    public GroupMessage () {
+  /**
+  * A constructor.
+  */
+  public GroupMessage () {
 
-    }
+  }
 }

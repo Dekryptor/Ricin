@@ -6,10 +6,10 @@ using Ricin;
 */
 public class Ricin.GeneralSettings : Object {
 
-    /**
-    * A constructor.
-    */
-    public GeneralSettings () {
+  /**
+  * A constructor.
+  */
+  public GeneralSettings () {
 
-    }
+  }
 }

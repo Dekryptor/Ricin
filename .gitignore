@@ -1,6 +1,27 @@
+# Autovala defaults
 .gitignore
 .bzrignore
 .hgignore
 install
 *~
-build
+
+# build directories.
+build/
+build-win32/
+build-osx/
+
+# AStyle orig files.
+*.orig
+
+# Ghostwriter (Markdown editor) backup files.
+*.backup
+
+# gdb logs.
+.gdb_history
+
+# this is a vala project.
+*.c
+
+# Glade stupid temp files.
+*.ui~
+*.ui#
