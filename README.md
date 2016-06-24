@@ -1,4 +1,11 @@
 # Ricin
+
+[![Ricin license](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat)](https://raw.githubusercontent.com/RicinApp/Ricin/master/LICENSE)
+[![Ricin release](https://img.shields.io/github/release/RicinApp/Ricin.svg?style=flat)](https://github.com/RicinApp/Ricin/releases/latest)
+[![Ricin open issues](https://img.shields.io/github/issues/RicinApp/Ricin.svg?style=flat)](https://github.com/RicinApp/Ricin/issues)
+[![Codecov](https://img.shields.io/codecov/c/github/RicinApp/Ricin/develop.svg?style=flat)](https://codecov.io/github/RicinApp/Ricin)
+[![TravisCI](https://img.shields.io/travis/RicinApp/Ricin/develop.svg?style=flat)](https://travis-ci.org/RicinApp/Ricin)
+
 This branch has nothing to do with the `master` one. Here's a complete rewrite
 of the Ricin source code, to make it more elegant, flexible and containing lot
 less bugs.
