@@ -4,6 +4,6 @@
 * @used_by FileTransfer
 * @user_by InlineTransfer
 */
-public interface IFileTransfers {
+public interface Ricin.IFileTransfers {
 
 }
