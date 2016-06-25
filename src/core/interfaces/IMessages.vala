@@ -59,5 +59,5 @@ public interface Ricin.IMessages {
   * Check shouldn't be based on sender name, preferd method is comparing public
   * keys.
   **/
-  public abstract bool compare_sender (Ricin.IMessage sender);
+  public abstract bool compare_sender (Ricin.IMessages sender);
 }
