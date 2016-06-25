@@ -1,3 +1,5 @@
+#!/bin/sh
+
 style:
 	astyle \
 		--style=attach \

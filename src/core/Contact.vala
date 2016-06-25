@@ -1,4 +1,5 @@
 using Ricin;
+using Gtk;
 
 /**
 * This class defines a Tox "friend" but we use the term contact in Ricin.
@@ -41,7 +42,7 @@ public class Ricin.Contact : Object {
   * The contact avatar in Gdk.Pixbuf format.
   * If null, Ricin must set it to the correct ToxIdenticon.
   **/
-  public Gdk.Pixbuf? avatar { get; protected set; default = null; }
+  //public Gdk.Pixbuf? avatar { get; protected set; default = null; }
 
   /**
   * Is the contact typing ?

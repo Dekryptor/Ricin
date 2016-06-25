@@ -4,13 +4,21 @@ project_name: Ricin
 *vala_version: 0.30
 
 
-*vala_binary: src/Ricin
+vala_binary: src/Ricin
+*version: 1.0.1
 *vala_vapi: vapis/libtoxav.vapi
 *vala_vapi: vapis/libtoxcore.vapi
 *vala_vapi: vapis/libtoxencryptsave.vapi
+*vala_check_package: atk
+*vala_check_package: cairo
+*vala_check_package: gdk-3.0
+*vala_check_package: gdk-pixbuf-2.0
 *vala_check_package: gio-2.0
 *vala_check_package: glib-2.0
 *vala_check_package: gobject-2.0
+*vala_check_package: gtk+-3.0
+*vala_check_package: pango
+*vala_check_package: x11
 *vala_source: Ricin.vala
 *vala_source: core/Action.vala
 *vala_source: core/AvatarTransfer.vala

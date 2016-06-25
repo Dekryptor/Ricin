@@ -77,7 +77,7 @@ public class Ricin.Message : IMessages, Object {
   /**
   * Get sender name in plain text.
   **/
-  public virtual string get_sender () {
+  public string get_sender () {
     /* TODO: Write a method to get the correct sender name. */
     return "";
   }

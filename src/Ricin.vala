@@ -1,3 +1,4 @@
+// project version=1.0.1
 using Ricin;
 
 static int main (string[] args) {

@@ -1,5 +1,4 @@
 using Ricin;
-// using libpeas;
 
 /**
 * This class aims to provide an easy way to load & unload user plugins.

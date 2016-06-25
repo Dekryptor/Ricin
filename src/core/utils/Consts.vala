@@ -12,7 +12,7 @@ public class Ricin.Consts : Object {
   /**
   * The application version.
   **/
-  public static const string APPLICATION_VERSION = "1.0.0";
+  public static const string APPLICATION_VERSION = Constants.VERSION;
 
   /**
   * Default profile name.
