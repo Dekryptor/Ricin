@@ -39,6 +39,18 @@ public class Ricin.Message : IMessages, Object {
   public string message { get; protected set; }
 
   /**
+  * This is the Message constructor for not INCOMING nor OUTGOING messages.
+  * Has not sender nor receiver. This is a Ricin generated message.
+  **/
+  public Message (string message, DateTime timestamp = new DateTime.now_local ()) {
+    this.direction = MessageDirection.NONE;
+    this.sender = null;
+    this.receiver = null;
+    this.message = message;
+    this.timestamp = timestamp;
+  }
+
+  /**
   * This is the Message constructor for INCOMING messages.
   * Has a sender but no receiver as we assume null to be the user.
   **/
@@ -58,18 +70,6 @@ public class Ricin.Message : IMessages, Object {
     this.direction = MessageDirection.OUTGOING;
     this.sender = null;
     this.receiver = receiver;
-    this.message = message;
-    this.timestamp = timestamp;
-  }
-
-  /**
-  * This is the Message constructor for not INCOMING nor OUTGOING messages.
-  * Has not sender nor receiver. This is a Ricin generated message.
-  **/
-  public Message (string message, DateTime timestamp = new DateTime.now_local ()) {
-    this.direction = MessageDirection.NONE;
-    this.sender = null;
-    this.receiver = null;
     this.message = message;
     this.timestamp = timestamp;
   }
