@@ -1,7 +1,6 @@
 # Ricin
 
-[![Ricin license](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat)](https://raw.githubusercontent.com/RicinApp/Ricin/master/LICENSE)
-[![Ricin release](https://img.shields.io/github/release/RicinApp/Ricin.svg?style=flat)](https://github.com/RicinApp/Ricin/releases/latest)
+[![Ricin license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://raw.githubusercontent.com/RicinApp/Ricin/develop/LICENSE)
 [![Ricin open issues](https://img.shields.io/github/issues/RicinApp/Ricin.svg?style=flat)](https://github.com/RicinApp/Ricin/issues)
 [![Codecov](https://img.shields.io/codecov/c/github/RicinApp/Ricin/develop.svg?style=flat)](https://codecov.io/github/RicinApp/Ricin)
 [![TravisCI](https://img.shields.io/travis/RicinApp/Ricin/develop.svg?style=flat)](https://travis-ci.org/RicinApp/Ricin)
