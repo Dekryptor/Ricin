@@ -8,5 +8,10 @@ static int main (string[] args) {
     Consts.APPLICATION_VERSION
   );
 
-  return 0;
+  /**
+  * TODO: Initialize GetText (Glib.Intl).
+  * TODO: Initialize and parse OptionContext.
+  **/
+
+  return new Ricin.ToxSession ().run ();
 }
