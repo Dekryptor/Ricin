@@ -36,6 +36,7 @@ vala_binary: src/Ricin
 *vala_source: core/Status.vala
 *vala_source: core/Theme.vala
 *vala_source: core/ThemesManager.vala
+*vala_source: core/ToxSession.vala
 *vala_source: core/interfaces/IFileTransfers.vala
 *vala_source: core/interfaces/IMessages.vala
 *vala_source: core/interfaces/IPlugins.vala

@@ -15,6 +15,7 @@ src/core/PubKey.vala
 src/core/Status.vala
 src/core/Theme.vala
 src/core/ThemesManager.vala
+src/core/ToxSession.vala
 src/core/interfaces/IFileTransfers.vala
 src/core/interfaces/IMessages.vala
 src/core/interfaces/IPlugins.vala
