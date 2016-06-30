@@ -1,4 +1,10 @@
 #!/bin/sh
+build:
+	mkdir -p build
+	cd build &&	cmake .. && make -j2 && ./src/Ricin
+
+av-update:
+	autovala update
 
 style:
 	astyle \
@@ -19,4 +25,4 @@ clean-style:
 		$(wildcard src/*/*/*.vala.orig) \
 		$(wildcard src/vapis/*.vapi.orig)
 
-.PHONY: style clean-style
+.PHONY: build av-update style clean-style
